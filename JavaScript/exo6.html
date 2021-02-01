@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exo 6</title>
+
+
+
+</HEAD>
+
+<BODY>
+<script language="JavaScript" src="exo6.js"></script>
+
+<form action="#" name="formulaire">
+
+<textarea cols="50" rows="5" onFocus="this.style.background='#C6A572';" onfocusout="this.style.background='#D4860A';" name="champ_1"></textarea>
+<br><br>
+<textarea cols="50" rows="5" onFocus="this.style.background='#C6A572';" onfocusout="this.style.background='#D4860A';" name="champ_2"></textarea>
+<br><br>
+
+<INPUT type="button" onClick="same();this.value='PATIENTEZ SVP';" value="MEME VALEUR">
+<INPUT type="submit">
+</form>
+  </br>
+
+ <form name="form1">
+  <select name="list" onchange="capi(this.value)">
+  <option value="-1">selectionnez le pays</option>
+  <option value="1">France</option>
+  <option value="2">Espagne</option>
+  <option value="3">Japon</option>
+  <option value="4">Canada</option>
+  </select>
+  <br>
+  <input type="text" name="txtCapitale">
+ 
+ </form>
+   </br>
+ <form action="#" name="test">
+ 	<textarea cols="50" rows="5" onFocus="this.style.background='#C6A572';" onfocusout="this.style.background='#D4860A';" name="champ_2"></textarea>
+<br><br>
+ </form>
+
+<form action="#" name="QCM">
+
+<p>Q1.Qui est le meilleur ?
+<br><input type="radio" name="1" value="a" onclick="result(1, this.value)"><font color="#FF0000">a.
+</font><font color="#330033">Lionel Messi</font>
+<br><input type="radio" name="1" value="b" onclick="result(1, this.value)"><font color="#FF0000">b.
+</font><font color="#330033">Cristiano Ronaldo</font>
+<br><input type="radio" name="1" value="c" onclick="result(1, this.value)"><font color="#FF0000">c.
+</font><font color="#330033">Neymar JR</font>
+<br><input type="radio" name="1" value="d" onclick="result(1, this.value)"><font color="#FF0000">c.
+</font><font color="#330033">Kyllian Mbappe</font>
+<br>&nbsp;
+
+<p>Q2.Qui est le meilleur ?
+<br><input type="radio" name="2" value="a" onclick="result(2, this.value)"><font color="#FF0000">a.
+</font><font color="#330033">Michael Jordan</font>
+<br><input type="radio" name="2" value="b" onclick="result(2, this.value)"><font color="#FF0000">b.
+</font><font color="#330033">Lebron James</font>
+<br><input type="radio" name="2" value="c" onclick="result(2, this.value)"><font color="#FF0000">c.
+</font><font color="#330033">Steph Curry</font>
+<br><input type="radio" name="2" value="d" onclick="result(2, this.value)"><font color="#FF0000">c.
+</font><font color="#330033">Kobe Bryant</font>
+<br>&nbsp;
+
+<p>Q3. La capital de la France ?
+<br><input type="radio" name="3" value="a" onclick="result(3, this.value)"><font color="#FF0000">a.
+</font><font color="#330033">Cergy</font>
+<br><input type="radio" name="3" value="b" onclick="result(3, this.value)"><font color="#FF0000">b.
+</font><font color="#330033">Paris</font>
+<br><input type="radio" name="3" value="c" onclick="result(3, this.value)"><font color="#FF0000">c.
+</font><font color="#330033">Bretagne (non madame c'est pas ça)</font>
+<br><input type="radio" name="3" value="d" onclick="result(3, this.value)"><font color="#FF0000">c.
+</font><font color="#330033">Nex-York</font>
+<br>&nbsp;
+
+<p><input type="button" name="Resultats" value="Résultats" onclick="scoree()">
+<br>&nbsp;
+<p>
+	
+</form>
+</BODY>
+</HTML>
+
+
+
